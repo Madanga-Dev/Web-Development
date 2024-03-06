@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    
+</head>
+<body>
+
+    <form action="scripts/data.php" method="post" id="registrationForm">
+        <fieldset>
+          <legend>New Student Registration Form</legend>  
+          <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <label>Gender</label> <br>
+        <input type="radio" id="Male" name="Gender"  value="Male">
+        <label for ="Male">Male</label><br>
+        <input type="radio" id="Female" name="Gender"  value="Female">
+        <label for ="Female">Female</label><br>
+        
+
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" rows="2" required></textarea><br><br>
+
+        <label for="telephone">Telephone:</label>
+        <input type="number" id="telephone" name="telephone" required><br><br>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="course">Course:</label>
+        <input type="text" id="course" name="course" required><br><br>
+
+        <button type="submit" onclick=" ">Register</button>
+        <button type="button" class="cancel" onclick=" ">Cancel</button>
+        </fieldset>
+        
+    </form>
+
+    
+
+</body>
+</html>
